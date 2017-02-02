@@ -6,18 +6,67 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     </head>
+	
     <body>
-    <h2 class="page header">Contact Us</h1>
+    <h2 class="page header">Contact Us</h2>
     
     <div class="container">
-    <form class="form-group">
-    <button class="btn btn-lg"><span class="glyphicon-asterisk"></span>Required fields</button>
-    <input type="name" class="form-control" id="name" placeholder="Full Name">
-    <input type="email" class="form-control" id="email" placeholder="Email">
-    <input type="email" class="form-control" id="email" placeholder="Confirm Email">
-    <textarea placeholder="Enter your message here..">
-    <button type="submit" class="btn-primary margin-right="0";">
-              
+	<form class="form-group">
+		
+	<div class="row">   
+		<div class="col-sm-10 col-sm-offset-1"> 
+    	<button class="btn btn-lg btn-active"><span class="glyphicon-asterisk" style="color: red"></span>
+	    Required fields
+	</button>
+		</div>
+	</div>
+		
+	<div class="row">   
+		<div class="col-sm-9 col-sm-offset-1"> 
+    		<input type="name" class="form-control" id="name" placeholder="Full Name">
+		<span>
+			<button class="btn btn-active col-sm-1"><span class="glyphicon-asterisk" style="color: red"></span>
+			</button>
+		</span>
+		</div>
+	</div>
+		
+	<div class="row">   
+		<div class="col-sm-9 col-sm-offset-1"> 
+    		<input type="email" class="form-control" id="email" placeholder="Email">
+		<span>
+		<button class="btn btn-active col-sm-1"><span class="glyphicon-asterisk" style="color: red"></span>
+		</button>
+		</span>
+		</div>
+	</div>
+	
+	<div class="row">   
+		<div class="col-sm-9 col-sm-offset-1"> 
+    		<input type="email" class="form-control" id="email" placeholder="Confirm Email">
+		<span>
+		<button class="btn btn-active col-sm-1"><span class="glyphicon-asterisk" style="color: red"></span>
+		</button>
+		</span>
+		</div>
+	</div>
+	
+	<div class="row">   
+		<div class="col-sm-9 col-sm-offset-1"> 
+    		<textarea placeholder="Enter your message here.."></textarea>
+		<span>
+		<button class="btn btn-active col-sm-1"><span class="glyphicon-asterisk" style="color: red"></span>
+		</button>
+		</span>
+		</div>
+	</div>
+
+	<div class="row">   
+		<div class="col-sm-4 col-sm-offset-5"> 
+    		<button type="submit" class="btn-primary" value="Send"></button>
+		</div>
+	</div>
+		
     </form>
     </div>
     
