@@ -4,73 +4,54 @@
         <meta charset="utf-8">
         <title>Contacts Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     </head>
 	
     <body>
-    <h2 class="page header">Contact Us</h2>
-    
-    <div class="container">
-	<form class="form-group">
-		
-	<div class="row">   
-		<div class="col-sm-10 col-sm-offset-1"> 
-    	<button class="btn btn-lg btn-active"><span class="glyphicon-asterisk" style="color: red"></span>
-	    Required fields
-	</button>
-		</div>
-	</div>
-		
-	<div class="row">   
-		<div class="col-sm-9 col-sm-offset-1"> 
-    		<input type="name" class="form-control" id="name" placeholder="Full Name">
-		<span>
-			<button class="btn btn-active col-sm-1"><span class="glyphicon-asterisk" style="color: red"></span>
-			</button>
-		</span>
-		</div>
-	</div>
-		
-	<div class="row">   
-		<div class="col-sm-9 col-sm-offset-1"> 
-    		<input type="email" class="form-control" id="email" placeholder="Email">
-		<span>
-		<button class="btn btn-active col-sm-1"><span class="glyphicon-asterisk" style="color: red"></span>
-		</button>
-		</span>
-		</div>
-	</div>
-	
-	<div class="row">   
-		<div class="col-sm-9 col-sm-offset-1"> 
-    		<input type="email" class="form-control" id="email" placeholder="Confirm Email">
-		<span>
-		<button class="btn btn-active col-sm-1"><span class="glyphicon-asterisk" style="color: red"></span>
-		</button>
-		</span>
-		</div>
-	</div>
-	
-	<div class="row">   
-		<div class="col-sm-9 col-sm-offset-1"> 
-    		<textarea placeholder="Enter your message here.."></textarea>
-		<span>
-		<button class="btn btn-active col-sm-1"><span class="glyphicon-asterisk" style="color: red"></span>
-		</button>
-		</span>
-		</div>
-	</div>
 
-	<div class="row">   
-		<div class="col-sm-4 col-sm-offset-5"> 
-    		<button type="submit" class="btn-primary" value="Send"></button>
-		</div>
-	</div>
+    <h2 class="page header col-lg-offset-1">Contact Us</h2>
+
+    <form class="form-group">
+
+<div class="input-group col-lg-10 col-lg-offset-1">
+        <span class="input-group-btn">
+        <button class="form-control text-left" disabled type="button">
+            <i class="glyphicon glyphicon-asterisk" style="color: red"></i>
+            Required Field
+        </button>
+      </span>
+</div>
+        <br/>
+<div class="input-group col-lg-10 col-lg-offset-1">
+  <input type="text" class="form-control" placeholder="Full name" aria-describedby="basic-addon2">
+  <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-asterisk" style="color: red; font: bold"></span></span>
+</div>
+		<br/>
+
+<div class="input-group col-lg-10 col-lg-offset-1">
+  <input type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon2">
+  <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-asterisk" style="color: red; font: bold"></span></span>
+</div>
+
+		<br/>
+<div class="input-group col-lg-10 col-lg-offset-1">
+  <input type="email" class="form-control" placeholder="Confirm Email" aria-describedby="basic-addon2">
+  <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-asterisk" style="color: red; font: bold"></span></span>
+</div>
+		<br/>
+<div class="input-group col-lg-10 col-lg-offset-1">
+  <textarea class="form-control" aria-describedby="basic-addon2" placeholder="Enter your text here"></textarea>
+  <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-asterisk" style="color: red; font: bold"></span></span>
+</div>
+<br/>
+
+<div>  
+    <input type="submit" class="btn btn-lg btn-primary col-lg-2 col-lg-offset-9" value="Send">
+</div>
 		
     </form>
-    </div>
     
-    <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 	</body>
 </html>
